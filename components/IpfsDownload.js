@@ -9,7 +9,7 @@ const IPFSDownload = ({ hash, filename }) => {
     <div>
       {file ? (
         <div className="download-component">
-          <a className="download-button" href={file} download={filename}>Download</a>
+          <a className="download-button" href={file} download={filename}>Download Your Pokemon</a>
         </div>
       ) : 
       (
